@@ -9,16 +9,11 @@
 import React, {Component} from 'react';
 import {Platform, StyleSheet, Text, View, ScrollView, TouchableOpacity} from 'react-native';
 import firebase from 'firebase';
+var config = require('./config.json');
 
 
-var config = {
-  apiKey: "AIzaSyDaZAL7qi3KSBd_0kHrXf8V8e90ZoRzhjI",
-  authDomain: "letterbox-e738d.firebaseapp.com",
-  databaseURL: "https://letterbox-e738d.firebaseio.com",
-  projectId: "letterbox-e738d",
-  storageBucket: "letterbox-e738d.appspot.com",
-  messagingSenderId: "220139901274"
-};
+
+
 firebase.initializeApp(config);
 
 var dbRefObject = firebase.database().ref();

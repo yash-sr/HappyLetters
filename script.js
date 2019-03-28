@@ -1,14 +1,7 @@
 var firebase = require("firebase");
+var config = require('./HappyLetters/config.json');
 
- // Initialize Firebase
- var config = {
-  apiKey: "AIzaSyDaZAL7qi3KSBd_0kHrXf8V8e90ZoRzhjI",
-  authDomain: "letterbox-e738d.firebaseapp.com",
-  databaseURL: "https://letterbox-e738d.firebaseio.com",
-  projectId: "letterbox-e738d",
-  storageBucket: "letterbox-e738d.appspot.com",
-  messagingSenderId: "220139901274"
-};
+
 firebase.initializeApp(config);
 
 var letterData={ l1:
