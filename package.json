@@ -1,0 +1,8 @@
+{
+  "name": "nodeatjf",
+  "version": "0.0.1",
+  "dependencies": {
+    "firebase": "^5.9.1",
+    "johnny-five": "latest"
+  }
+}
